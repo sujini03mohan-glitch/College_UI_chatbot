@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maria College Engineering & Technology</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="/static/images/logo.jpeg" alt="logo">
+    </div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#">Departments</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <!-- BACKGROUND CAROUSEL -->
+    <div class="swiper bgSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1"></div>
+            <div class="swiper-slide slide2"></div>
+            <div class="swiper-slide slide3"></div>
+        </div>
+    </div>
+
+    <!-- FIXED CONTENT -->
+    <div class="hero-content">
+        <p>DO YOU NEED ANY HELP?</p>
+        <h1>Welcome To Maria College of Engineering and Technology</h1>
+        <button onclick="scrollToCourses()">View Courses</button>
+    </div>
+
+    <!-- GLASS CARDS -->
+    <div class="hero-glass">
+
+        <div class="glass-card">
+            <h3>Computer Science</h3>
+            <p>AI, Programming, Data Science</p>
+        </div>
+
+        <div class="glass-card">
+            <h3>Commerce</h3>
+            <p>Finance, Accounting, Business</p>
+        </div>
+
+        <div class="glass-card">
+            <h3>Arts</h3>
+            <p>Language, Literature, History</p>
+        </div>
+
+        <div class="glass-card">
+            <h3>Management</h3>
+            <p>MBA, Leadership, Marketing</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="welcome">
+    <div class="welcome-container">
+
+        <div class="welcome-text">
+            <h2>Welcome To Our Campus</h2>
+            <p>
+                We provide high-quality education with modern infrastructure,
+                experienced faculty, and excellent placement opportunities.
+            </p>
+
+            <button>Read More</button>
+        </div>
+
+        <div class="welcome-image">
+            <img src="/static/images/about.jpg">
+        </div>
+
+    </div>
+</section>
+
+<section id="courses" class="courses">
+    <h2>Our Courses</h2>
+
+    <div class="course-container">
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?computer,students">
+            <h3>BCA</h3>
+            <p>Computer Applications and Software Development</p>
+            <button onclick="openForm('BCA')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?coding,programming">
+            <h3>BSc Computer Science</h3>
+            <p>Programming, AI, and Data Science</p>
+            <button onclick="openForm('BSc Computer Science')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?finance,office">
+            <h3>BCom</h3>
+            <p>Finance, Accounting and Business Studies</p>
+            <button onclick="openForm('BCom')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?books,library">
+            <h3>BA English</h3>
+            <p>Literature, Language and Communication</p>
+            <button onclick="openForm('BA English')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?engineering,technology">
+            <h3>B.Tech</h3>
+            <p>Engineering & Technology</p>
+            <span class="fee">₹1.38 Lakhs</span>
+            <button onclick="openForm('B.Tech')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?engineering,students">
+            <h3>BE</h3>
+            <p>Engineering Degree Program</p>
+            <span class="fee">₹1.38 Lakhs</span>
+            <button onclick="openForm('BE')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?mechanical,engineering">
+            <h3>ME</h3>
+            <p>Master of Engineering</p>
+            <span class="fee">₹96,660</span>
+            <button onclick="openForm('ME')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?technology,lab">
+            <h3>M.Tech</h3>
+            <p>Advanced Engineering Studies</p>
+            <span class="fee">₹96,660</span>
+            <button onclick="openForm('M.Tech')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?business,meeting">
+            <h3>MBA</h3>
+            <p>Business & Management</p>
+            <span class="fee">₹1.37 – ₹2.29 Lakhs</span>
+            <button onclick="openForm('MBA')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?computer,lab">
+            <h3>MCA</h3>
+            <p>Computer Applications</p>
+            <span class="fee">₹1.25 Lakhs</span>
+            <button onclick="openForm('MCA')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?science,lab">
+            <h3>M.Sc</h3>
+            <p>Science & Research Programs</p>
+            <span class="fee">₹86,660 – ₹3.5 Lakhs</span>
+            <button onclick="openForm('M.Sc')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?research,university">
+            <h3>PhD</h3>
+            <p>Doctoral Research Program</p>
+            <span class="fee">₹1.16 Lakhs</span>
+            <button onclick="openForm('PhD')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?architecture,design">
+            <h3>B.Arch</h3>
+            <p>Architecture & Design</p>
+            <span class="fee">₹1.65 Lakhs</span>
+            <button onclick="openForm('B.Arch')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?architecture,building">
+            <h3>M.Arch</h3>
+            <p>Advanced Architecture Studies</p>
+            <span class="fee">₹1.19 Lakhs</span>
+            <button onclick="openForm('M.Arch')">View Details</button>
+        </div>
+
+    </div>
+</section>
+<!-- CHAT HELPER MESSAGE -->
+<div class="chat-helper">
+    How can I help you?
+</div>
+
+<!-- CHATBOT FLOAT -->
+<div class="chatbot-container">
+
+    <!-- TEXT BUBBLE -->
+    <div class="chat-helper">
+        👋 How can I help you?
+    </div>
+
+    <!-- AVATAR -->
+    <div class="chatbot-avatar" onclick="toggleChat()">
+        <img src="/static/images/bot.png" alt="chatbot">
+    </div>
+
+</div>
+
+<!-- CHATBOX -->
+<div id="chatbox" class="chatbox">
+    
+    <!-- HEADER -->
+    <div class="chat-header">
+        <h3>College Assistant 🤖</h3>
+        <span onclick="toggleChat()">✖</span>
+    </div>
+
+    <!-- MESSAGES -->
+    <div id="messages" class="chat-messages"></div>
+
+    <!-- INPUT -->
+<div class="chat-input">
+    <input type="text" id="userInput" placeholder="Ask about courses...">
+    
+    <button onclick="startVoice()">🎤</button>
+    <button onclick="sendMessage()">➤</button>
+</div>
+
+</div>
+
+<!-- ENQUIRY FORM MODAL -->
+<div id="formModal" class="modal">
+    <div class="modal-content">
+        <span onclick="closeForm()" class="close">&times;</span>
+
+        <h2>Course Enquiry</h2>
+
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <input type="text" id="course" readonly>
+
+        <button onclick="submitForm()">Submit</button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/static/script.js"></script>
+
+</body>
+</html>

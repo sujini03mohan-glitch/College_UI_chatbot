@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+      "question": "What courses are available?",
+      "answer": "We offer BCA, BSc Computer Science, BCom, BA English and MBA."
+    },
+    {
+      "question": "What is the admission process?",
+      "answer": "You can apply online through our website and submit required documents."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Fees range from ₹50,000 to ₹1,50,000 depending on the course."
+    },
+    {
+      "question": "Do you provide hostel facility?",
+      "answer": "Yes, we provide separate hostel facilities for boys and girls."
+    },
+    {
+      "question": "What are the college timings?",
+      "answer": "College timing is from 9 AM to 4 PM."
+    },
+    {
+      "question": "Do you have placements?",
+      "answer": "Yes, we have a placement cell with top companies visiting every year."
+    },
+    {
+      "question": "What is the fee for BE?",
+      "answer": "The total fee for BE is around ₹1.38 Lakhs."
+    },
+    {
+      "question": "What is the fee for ME?",
+      "answer": "The total fee for ME is approximately ₹96,660."
+    },
+    {
+      "question": "What is the fee for MBA?",
+      "answer": "The MBA fee ranges from ₹1.37 Lakhs to ₹2.29 Lakhs."
+    },
+    {
+      "question": "What is the fee for MTech?",
+      "answer": "The total fee for M.Tech is approximately ₹96,660."
+    },
+    {
+      "question": "What is the fee for MSc?",
+      "answer": "The M.Sc fee ranges from ₹86,660 to ₹3.5 Lakhs."
+    },
+    {
+      "question": "What is the fee for PhD?",
+      "answer": "The total fee for PhD is approximately ₹1.16 Lakhs."
+    },
+    {
+      "question": "What is the fee for MCA?",
+      "answer": "The total fee for MCA is approximately ₹1.25 Lakhs."
+    },
+    {
+      "question": "What is the fee for BArch?",
+      "answer": "The total fee for B.Arch is approximately ₹1.65 Lakhs."
+    },
+    {
+       "question": "What is the fee for MArch?",
+  "answer": "The total fee for M.Arch is approximately ₹1.19 Lakhs."
+    },
+    {
+  "question": "Tell me BTech fees",
+  "answer": "B.Tech fees are around ₹1.38 Lakhs."
+    },
+    {
+  "question": "MBA fee details",
+  "answer": "MBA fees range between ₹1.37 Lakhs and ₹2.29 Lakhs."
+    },
+    {
+  "question": "How much is MCA course fee?",
+  "answer": "MCA course fee is approximately ₹1.25 Lakhs."
+    },
+    {
+  "question": "What is engineering fee?",
+  "answer": "Engineering courses like BE and B.Tech cost around ₹1.38 Lakhs."
+    },
+    {
+  "question": "Postgraduate course fees",
+  "answer": "Postgraduate fees vary: MBA ₹1.37–2.29 Lakhs, M.Tech ₹96,660, M.Sc ₹86,660–3.5 Lakhs."
+    },
+    {
+  "question": "msc",
+  "answer": "The M.Sc fee ranges from ₹86,660 to ₹3.5 Lakhs."
+    },
+    {
+  "question": "btech",
+  "answer": "B.Tech fee is approximately ₹1.38 Lakhs."
+    },
+    {
+  "question": "mba",
+  "answer": "MBA fees range from ₹1.37 Lakhs to ₹2.29 Lakhs."
+    },
+    {
+  "question": "mca",
+  "answer": "MCA fee is approximately ₹1.25 Lakhs."
+    },
+    {
+  "question": "What is the fee for BTech?",
+  "answer": "The total fee for B.Tech is approximately ₹1.38 Lakhs."
+    }
+
+  ]
+}
